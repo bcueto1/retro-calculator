@@ -15,6 +15,7 @@
 		D342E6FD1D5FCDC80004D01D /* retro_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D342E6FC1D5FCDC80004D01D /* retro_calculatorTests.swift */; };
 		D342E7081D5FCDC80004D01D /* retro_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D342E7071D5FCDC80004D01D /* retro_calculatorUITests.swift */; };
 		D342E7161D60F39E0004D01D /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D342E7151D60F39E0004D01D /* Minecraft.ttf */; };
+		D342E7181D60F7980004D01D /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = D342E7171D60F7980004D01D /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D342E7071D5FCDC80004D01D /* retro_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retro_calculatorUITests.swift; sourceTree = "<group>"; };
 		D342E7091D5FCDC80004D01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D342E7151D60F39E0004D01D /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		D342E7171D60F7980004D01D /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		D342E6E61D5FCDC70004D01D /* retro-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				D342E7171D60F7980004D01D /* btn.wav */,
 				D342E7151D60F39E0004D01D /* Minecraft.ttf */,
 				D342E6E91D5FCDC70004D01D /* ViewController.swift */,
 				D342E6E71D5FCDC70004D01D /* AppDelegate.swift */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D342E7181D60F7980004D01D /* btn.wav in Resources */,
 				D342E6F21D5FCDC70004D01D /* LaunchScreen.storyboard in Resources */,
 				D342E6EF1D5FCDC70004D01D /* Assets.xcassets in Resources */,
 				D342E7161D60F39E0004D01D /* Minecraft.ttf in Resources */,
