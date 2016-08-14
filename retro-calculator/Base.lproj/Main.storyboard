@@ -5,6 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Minecraft.ttf">
+            <string>Minecraft</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -196,6 +201,16 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ckb-EA-t26">
+                                <rect key="frame" x="222" y="105" width="200" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Qtk-B5-G0g"/>
+                                    <constraint firstAttribute="height" constant="40" id="ZNZ-Bo-DXZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -205,9 +220,11 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="F0a-Vc-K92" secondAttribute="bottom" id="KUh-s6-Z61"/>
                             <constraint firstItem="n7f-PM-0O1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W1g-0w-ego"/>
                             <constraint firstItem="F0a-Vc-K92" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XfT-wp-jho"/>
+                            <constraint firstItem="Ckb-EA-t26" firstAttribute="top" secondItem="n7f-PM-0O1" secondAttribute="top" constant="30" id="cdh-PG-BaD"/>
                             <constraint firstItem="DSx-37-MAD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hUd-yZ-0sD"/>
                             <constraint firstItem="XpI-bU-U7X" firstAttribute="centerX" secondItem="n7f-PM-0O1" secondAttribute="centerX" id="meg-Qv-JEA"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DSx-37-MAD" secondAttribute="bottom" id="qtb-8P-60k"/>
+                            <constraint firstItem="Ckb-EA-t26" firstAttribute="trailing" secondItem="n7f-PM-0O1" secondAttribute="trailing" constant="-10" id="s4U-NN-aEo"/>
                             <constraint firstItem="F0a-Vc-K92" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="s67-l4-Abh"/>
                             <constraint firstAttribute="trailing" secondItem="DSx-37-MAD" secondAttribute="trailing" id="uQ6-z8-lxw"/>
                         </constraints>

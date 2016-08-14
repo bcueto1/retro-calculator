@@ -14,6 +14,7 @@
 		D342E6F21D5FCDC70004D01D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D342E6F01D5FCDC70004D01D /* LaunchScreen.storyboard */; };
 		D342E6FD1D5FCDC80004D01D /* retro_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D342E6FC1D5FCDC80004D01D /* retro_calculatorTests.swift */; };
 		D342E7081D5FCDC80004D01D /* retro_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D342E7071D5FCDC80004D01D /* retro_calculatorUITests.swift */; };
+		D342E7161D60F39E0004D01D /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D342E7151D60F39E0004D01D /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D342E7031D5FCDC80004D01D /* retro-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "retro-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D342E7071D5FCDC80004D01D /* retro_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retro_calculatorUITests.swift; sourceTree = "<group>"; };
 		D342E7091D5FCDC80004D01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D342E7151D60F39E0004D01D /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 		D342E6E61D5FCDC70004D01D /* retro-calculator */ = {
 			isa = PBXGroup;
 			children = (
-				D342E6E71D5FCDC70004D01D /* AppDelegate.swift */,
+				D342E7151D60F39E0004D01D /* Minecraft.ttf */,
 				D342E6E91D5FCDC70004D01D /* ViewController.swift */,
+				D342E6E71D5FCDC70004D01D /* AppDelegate.swift */,
 				D342E6EB1D5FCDC70004D01D /* Main.storyboard */,
 				D342E6EE1D5FCDC70004D01D /* Assets.xcassets */,
 				D342E6F01D5FCDC70004D01D /* LaunchScreen.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				D342E6F21D5FCDC70004D01D /* LaunchScreen.storyboard in Resources */,
 				D342E6EF1D5FCDC70004D01D /* Assets.xcassets in Resources */,
+				D342E7161D60F39E0004D01D /* Minecraft.ttf in Resources */,
 				D342E6ED1D5FCDC70004D01D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
