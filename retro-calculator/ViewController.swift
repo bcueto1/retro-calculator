@@ -36,6 +36,17 @@ class ViewController: UIViewController {
         outputLbl.text = runningNumber
     }
     
+    @IBAction func clearPressed(sender: AnyObject) {
+        playSound()
+        
+        runningNumber = ""
+        leftValStr = ""
+        rightValStr = ""
+        result = ""
+        currentOperation = Operation.Empty
+        outputLbl.text = "0"
+    }
+    
     @IBAction func whenDividePressed(sender: AnyObject) {
         processOperation(Operation.Divide)
     }

@@ -256,11 +256,23 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yfc-js-DRM" userLabel="Clear Button">
+                                <rect key="frame" x="239" y="29" width="122" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="CnV-PJ-To8"/>
+                                    <constraint firstAttribute="width" constant="122" id="Tf7-Je-J04"/>
+                                </constraints>
+                                <state key="normal" image="clear"/>
+                                <connections>
+                                    <action selector="clearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DZJ-5Z-sbg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="XpI-bU-U7X" firstAttribute="centerY" secondItem="n7f-PM-0O1" secondAttribute="centerY" constant="35" id="2t8-yE-ZxJ"/>
                             <constraint firstItem="n7f-PM-0O1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3T1-O2-ThJ"/>
+                            <constraint firstItem="n7f-PM-0O1" firstAttribute="top" secondItem="Yfc-js-DRM" secondAttribute="bottom" id="6fj-BK-mA8"/>
                             <constraint firstAttribute="trailing" secondItem="F0a-Vc-K92" secondAttribute="trailing" id="F29-lg-nNx"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="F0a-Vc-K92" secondAttribute="bottom" id="KUh-s6-Z61"/>
                             <constraint firstItem="n7f-PM-0O1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W1g-0w-ego"/>
@@ -272,6 +284,7 @@
                             <constraint firstItem="Ckb-EA-t26" firstAttribute="trailing" secondItem="n7f-PM-0O1" secondAttribute="trailing" constant="-10" id="s4U-NN-aEo"/>
                             <constraint firstItem="F0a-Vc-K92" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="s67-l4-Abh"/>
                             <constraint firstAttribute="trailing" secondItem="DSx-37-MAD" secondAttribute="trailing" id="uQ6-z8-lxw"/>
+                            <constraint firstItem="Yfc-js-DRM" firstAttribute="centerX" secondItem="n7f-PM-0O1" secondAttribute="centerX" id="x38-te-vhJ"/>
                         </constraints>
                     </view>
                     <connections>
@@ -296,6 +309,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
